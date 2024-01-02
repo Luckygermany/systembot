@@ -42,4 +42,4 @@ autodoc_member_order = "bysource"
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 # https://pradyunsg.me/furo/customisation/
 
-html_theme = "furo"
+
