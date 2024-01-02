@@ -12,14 +12,11 @@ from datetime import date
 
 sys.path.insert(0, os.path.abspath("../"))
 
-from ezcord import __version__
 
-project = "Ezcord"
-copyright = f"{date.today().year}, tibue99"
-author = "tibue99"
-release = __version__
 
-version = __version__
+project = "red Whimsy V2"
+copyright = f"{date.today().year}, Lucky"
+author = "Lucky"
 
 
 # General configuration
@@ -40,17 +37,7 @@ simplify_optional_unions = True
 
 autodoc_member_order = "bysource"
 
-intersphinx_mapping = {
-    "py": ("https://docs.python.org/3", None),
-    "aio": ("https://docs.aiohttp.org/en/stable/", None),
-    "req": ("https://requests.readthedocs.io/en/latest/", None),
-    "dc": ("https://docs.pycord.dev/en/master/", None),
-    "dpy": ("https://discordpy.readthedocs.io/en/stable/", None),
-    "sql": ("https://aiosqlite.omnilib.dev/en/stable/", None),
-}
 
-templates_path = ["_templates"]
-exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 
 # Options for HTML output and furo customisation
@@ -58,8 +45,3 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # https://pradyunsg.me/furo/customisation/
 
 html_theme = "furo"
-html_static_path = ["_static"]
-
-html_title = f"<h3 align='center'>{release}</h3>"
-html_logo = "_static/ezcord.png"
-html_favicon = "_static/favicon.ico"
