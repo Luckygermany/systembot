@@ -1,4 +1,4 @@
-### `createPage(databaseId, properties)`###
+### `createPage(databaseId, properties)`
 
 **Parameters:**  
 - `databaseId` (string) — Notion database ID  
@@ -12,7 +12,7 @@ Creates a new page in the specified database with given property values.
 
 ---
 
-### `appendBlockChildren(blockId, children)`###
+### `appendBlockChildren(blockId, children)`
 
 **Parameters:**  
 - `blockId` (string) — ID of the parent block or page to append children to  
